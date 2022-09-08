@@ -18,8 +18,6 @@ func parse_mf2(url string) *microformats.Data {
 
 	defer resp.Body.Close()
 
-	// err, data :=
-
 	if err != nil {
 		log.Fatal(err)
 	}

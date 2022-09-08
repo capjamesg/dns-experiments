@@ -31,6 +31,11 @@ Here are the commands presently available:
     dig @jamesg.blog resume - get my resume
     dig @jamesg.blog recent.blog - get the title and URL of my most recent blog post
 
+### Misc.
+
+    dig @jamesg.blog cf30 - convert 30 degrees Celsius to Fahrenheit
+    dig @jamesg.blog fc100 - convert 100 degrees Fahrenheit to Celsius
+
 The server only returns TXT records. Querying for other record types will not return any responses.
 
 ## Installation
