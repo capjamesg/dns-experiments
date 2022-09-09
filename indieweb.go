@@ -39,6 +39,18 @@ func is_hwc_day(w dns.ResponseWriter, r *dns.Msg) {
 	send_message(w, r, message)
 }
 
+func is_newsletter_day(w dns.ResponseWriter, r *dns.Msg) {
+	var message string
+
+	if time.Now().Weekday() == time.Friday {
+		message = "It's Newsletter Day!"
+	} else {
+		message = "It is not Newsletter day."
+	}
+
+	send_message(w, r, message)
+}
+
 func next_indieweb_event(w dns.ResponseWriter, r *dns.Msg) {
 	url := "https://events.indieweb.org"
 

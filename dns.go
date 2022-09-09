@@ -44,6 +44,7 @@ func main() {
 	handler.HandleFunc("is.it.hwc.day", is_hwc_day)
 	handler.HandleFunc("next.indieweb.event", next_indieweb_event)
 	handler.HandleFunc("recent.blog", most_recent_blog_post)
+	handler.HandleFunc("is.it.newsletter.day", is_newsletter_day)
 
 	// fallback handler
 	handler.HandleFunc(".", func(w dns.ResponseWriter, r *dns.Msg) {
