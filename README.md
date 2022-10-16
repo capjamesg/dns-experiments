@@ -66,7 +66,7 @@ Thank you to [miekg](https://github.com/miekg) for building the Go miekg/dns lib
 
 ## License
 
-This project is licensed under an [MIT license](LICENSE).
+This project is licensed under an [MIT 0 license](LICENSE).
 
 ## Contributors
 
